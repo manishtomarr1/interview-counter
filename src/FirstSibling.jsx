@@ -1,8 +1,9 @@
 import React from "react";
+import classes from './firstSibling.module.css'
 const FirstSibling = (props) =>{
 
     return(
-<button onClick={props.stop}>stop timeout</button>
+<button className={classes.btn} onClick={props.stop}>stop</button>
     )
 }
 
